@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:hint="단 입력(예: 5) : "
         android:inputType="number"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:id="@+id/etDan"/>
 
     <Button
         android:id="@+id/btnCalculate"
